@@ -3,13 +3,11 @@
 
 int main()
 {
-	std::string str = "Hi! my name is Faraaz, and you entered the next line...";
-	std::string str2;
+	std::string str;
 
 	std::cout<<"Enter any string and press enter: ";
-	getline(std::cin, str2);
+	getline(std::cin, str);
 
-	std::cout<<str<<std::endl;
-	std::cout<<str2<<std::endl;
+	std::cout<<"You just entered: "<<str<<std::endl;
 	return 0;
 }

@@ -1,0 +1,7 @@
+*.exe
+*.out
+*.app
+*.o
+*.so
+*.la
+*.a
